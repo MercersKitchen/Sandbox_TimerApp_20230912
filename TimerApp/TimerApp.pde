@@ -8,6 +8,7 @@ void setup () {
   appWidth = width;
   appHeight = height;
   println("Display Width", displayWidth, "Display Height", displayHeight);
+  println("App Width", appWidth, "App Height", appHeight);
   //
   
 } //End Setup
