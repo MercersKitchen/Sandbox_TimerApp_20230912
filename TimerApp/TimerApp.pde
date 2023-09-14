@@ -10,6 +10,10 @@ void setup () {
   println("Display Width", displayWidth, "Display Height", displayHeight);
   println("App Width", appWidth, "App Height", appHeight);
   //
+  //Problem: Display < CANVAS
+  if (appWidth>displayWidth) appWidth=displayWidth;
+  if (appHeight>displayHeight) appHeight=displayHeight;
+  //
   
 } //End Setup
 //
